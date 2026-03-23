@@ -1,0 +1,59 @@
+body {
+    margin-left: 25%;
+    font-family: "Times New Roman", "Khmer OS Battambang", serif;
+    width: 800px;
+    height: auto;
+    padding: 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.info {
+    width: 70%;
+}
+.photo img {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    border: 1px solid #000;
+}
+h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+p {
+    margin: 3px 0;
+}
+ul {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.references {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.references p {
+    margin: 0;
+    font-size: 14px;
+}
